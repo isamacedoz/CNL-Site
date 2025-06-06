@@ -1,0 +1,32 @@
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Recursive";
+    src: url(./fonts/Recursive-VariableFont_CASL\,CRSV\,MONO\,slnt\,wght.ttf);
+}
+
+.container-grid {
+    width: 80vw;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.banner img {
+    height: 80px;
+    width: 1400px;
+}
+
+.banner {
+    background-image: url(./imgs/transferir\ \(18\)\ 1.jpg);
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-position: 0 -10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
