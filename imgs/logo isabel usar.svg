@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_2" data-name="Camada 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 550.58 361.02">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        font-family: RecursiveSansLnr-SemiBold, Recursive;
+        font-size: 52.46px;
+        font-variation-settings: 'MONO' 0, 'CASL' 0, 'wght' 600, 'slnt' 0, 'CRSV' 0;
+        font-weight: 600;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-4 {
+        font-family: RecursiveSansLnr-BoldItalic, Recursive;
+        font-size: 172.81px;
+        font-style: italic;
+        font-variation-settings: 'MONO' 0, 'CASL' 0, 'wght' 700, 'slnt' -15, 'CRSV' 1;
+        font-weight: 700;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7 {
+        letter-spacing: -.02em;
+      }
+    </style>
+  </defs>
+  <g id="Diamagração">
+    <text class="cls-4" transform="translate(239.53 279.39)"><tspan x="0" y="0">CNL</tspan></text>
+    <path class="cls-3" d="M183.62,0l-40.05,12.55s-24.7,10.79-25.29,20.78l-3.69,11.98c-3.69,11.98-2.18,17.6-1.66,20.48.52,2.88,37.85-9.84,42.24-10.87s24.39-17.12,26.69-25.96c2.3-8.84,4.39-17.28,1.75-28.97Z"/>
+    <path class="cls-3" d="M110.48,98.78c-11.05-20.11,12.58-54.28,52.82-76.39"/>
+    <path class="cls-3" d="M0,56.99l41.27-7.63s26.88-2.02,32.07,6.54l8.86,8.87c8.86,8.87,10.16,14.54,11.04,17.33s-38.06,9.01-42.43,10.15c-4.37,1.14-29.56-3.72-35.73-10.46-6.17-6.74-11.97-13.22-15.09-24.79Z"/>
+    <path class="cls-3" d="M114.47,112.69c1.57-21.62-33.24-41.74-77.82-44.98"/>
+    <g>
+      <polygon class="cls-3" points="124 101.12 188.44 146.94 188.44 261.5 61.71 261.5 61.71 279.39 205.62 279.39 205.62 136.92 133.67 86.44 124 101.12"/>
+      <polygon class="cls-3" points="101 116.53 23.32 160.56 23.32 247.19 86.32 247.19 87.04 212.11 101 212.11 101 256.5 9.71 256.5 9.71 152.68 91.87 105.07 101 116.53"/>
+    </g>
+    <text class="cls-2" transform="translate(36.65 343.71)"><tspan x="0" y="0">con</tspan><tspan class="cls-7" x="89.18" y="0">s</tspan><tspan x="116.98" y="0">truct new </tspan><tspan class="cls-5" x="387.15" y="0">l</tspan><tspan class="cls-1" x="403.94" y="0">i</tspan><tspan class="cls-6" x="422.3" y="0">f</tspan><tspan x="442.76" y="0">e</tspan></text>
+  </g>
+</svg>

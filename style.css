@@ -1,21 +1,6 @@
- {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+*
 
-@font-face {
-    font-family: "Recursive";
-    src: url(./fonts/Recursive-VariableFont_CASL\,CRSV\,MONO\,slnt\,wght.ttf);
-}
-
-.container-grid {
-    width: 80vw;
-    max-width: 1400px;
-    margin: 0 auto;
-}
-
-.banner img {
+/* .banner img {
     height: 80px;
     width: 1400px;
 }
@@ -29,4 +14,202 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.ISABEL{
+    color: #FFFFFF;
+    font-family: "Recursive", sans-casual;
+}
+
+.ARROZ{
+    color: #056734;
+    font-family: "Recursive", sans-extrabold;
+}
+
+#parallax {
+    height: 250px;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.26)), url(./imgs/vai\ dar\ certo02.png);
+    background-attachment: fixed;
+    background-size: 30%;
+    margin-bottom: 120px;
+}
+
+.container-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    position: relative
+}
+
+#servicos .card {
+    width: 300px;
+    margin: 20px;
+    padding: 40px 20px;
+    border-radius: 40px;
+    background-color: #F2F2F2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
+
+
+
+
+
+/* Reset e fontes */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Recursive";
+    src: url(./fonts/Recursive-VariableFont_CASL\,CRSV\,MONO\,slnt\,wght.ttf);
+}
+
+body {
+    overflow-x: hidden;
+    font-family: "Recursive", sans-serif;
+}
+
+/* Container padrão com espaçamento lateral */
+.espacosLaterais {
+    width: 80vw;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    height: 180px;
+    background-color: #056734;
+}
+
+header img {
+    width: 150px;
+}
+
+header .espacosLaterais {
+    height: 100%;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Menu de navegação */
+.menu {
+    max-width: 700px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a {
+    font-size: 20px;
+    color: white;
+    text-decoration: underline transparent;
+    text-decoration-thickness: 2px;
+    transition: text-decoration 500ms ease;
+}
+
+.menu a:hover {
+    text-decoration-color: #FFFFFF;
+}
+
+/* Banner */
+.banner {
+    background-image: url(./imgs/transferir\ \(18\)\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-banner {
+    text-align: center;
+    font-size: 190%;
+    font-family: "Recursive", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.isabel {
+    color: #FFFFFF;
+    font-size: 28px;
+}
+
+.peixe {
+    color: #056734;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.arroz {
+    color: #FFFFFF;
+    font-size: 20px;
+    max-width: 700px;
+}
+
+/* Sessão Parallax */
+#parallax {
+    height: 250px;
+    background: linear-gradient(rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.26)),
+        url(./imgs/vai\ dar\ certo02.png);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 300px;
+}
+
+/* Título reutilizável */
+.titulo {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.titulo span {
+    font-size: 20px;
+    color: #056734;
+}
+
+.titulo h2 {
+    font-size: 36px;
+    color: #000000;
+}
+
+/* Sessão 'Quem Somos' */
+.container-grid {
+    width: 80vw;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.conteudo-sobre p {
+    font-size: 18px;
+    text-align: justify;
+    max-width: 800px;
+}
+
+/* Placeholder: serviços (estilização a ser definida depois) */
+#servicos {
+    padding-bottom: 60px;
 }
