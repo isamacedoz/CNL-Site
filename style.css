@@ -1,5 +1,4 @@
 *
-
 /* .banner img {
     height: 80px;
     width: 1400px;
@@ -77,7 +76,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Recursive", sans-serif;
+    font-family: "Recursive", Sans-Casual;
 }
 
 /* Container padrão com espaçamento lateral */
@@ -140,7 +139,7 @@ header .espacosLaterais {
 .conteudo-banner {
     text-align: center;
     font-size: 190%;
-    font-family: "Recursive", sans-serif;
+    font-family: "Recursive", Sans-Casual;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -156,12 +155,18 @@ header .espacosLaterais {
     color: #056734;
     font-size: 80px;
     font-weight: bold;
+    opacity: 0.5;
+    box-shadow: 16px 16px 10px #056734;
 }
+
+
 
 .arroz {
     color: #FFFFFF;
     font-size: 20px;
     max-width: 700px;
+    font-family: "Recursive", Sans-Casual-Medium;
+    font-size: 38px;
 }
 
 /* Sessão Parallax */
@@ -170,10 +175,11 @@ header .espacosLaterais {
     background: linear-gradient(rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.26)),
         url(./imgs/vai\ dar\ certo02.png);
     background-attachment: fixed;
-    background-size: 100%;
-    background-repeat: no-repeat;
+    background-size: 220px;
+    background-repeat: repeat;
     background-position: center;
     margin-bottom: 300px;
+    padding: 50px;
 }
 
 /* Título reutilizável */
@@ -182,7 +188,7 @@ header .espacosLaterais {
     margin: 40px 0;
 }
 
-.titulo span {
+.titulo {
     font-size: 20px;
     color: #056734;
 }
@@ -190,18 +196,58 @@ header .espacosLaterais {
 .titulo h2 {
     font-size: 36px;
     color: #000000;
+    font-family: "Recursive", Sans-Casual;
 }
 
-/* Sessão 'Quem Somos' */
-.container-grid {
-    width: 80vw;
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
+.menor {
+    text-align: center;
+    /*------Alinha o texto ao centro------*/
+    font-size: 32px;
+    font-weight: bold;
+
 }
+
+.botao-somos {
+    background-color: #056734;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+
+
+.centro {
+    color: #000000;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+
+    height: 500px;
+
+    font-family: "Recursive", sans-casual;
+    font-size: 50px;
+}
+
+.centro-texto {
+    font-family: "Recursive", sans-casual;
+    font-size: 500px;
+
+
+}
+
+
+
+.destaque {
+    color: #FFFFFF;
+    /*---branco----*/
+    font-family: "Recursive", sans-casual;
+}
+
 
 .conteudo-sobre p {
     font-size: 18px;
@@ -212,4 +258,146 @@ header .espacosLaterais {
 /* Placeholder: serviços (estilização a ser definida depois) */
 #servicos {
     padding-bottom: 60px;
+}
+
+.espacosLaterais img {
+    height: 133px;
+    width: 250px;
+}
+
+.peixe {
+    color: #056734;
+    margin-bottom: 0;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 10px 18px;
+}
+
+.botao-servicos {
+    background-color: #056734;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1em;
+
+}
+
+.container-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    position: relative
+}
+
+
+
+
+#servicos .card {
+    width: 300px;
+    height: 380px;
+    margin: 20px;
+    padding: 40px 20px;
+    border-radius: 40px;
+    background-color: #F2F2F2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#servicos .card h3 {
+    font-size: 24px;
+    margin: 5px 0 30px;
+    color: var(--);
+    font-family: "Recursive", sans-linear-bold;
+    text-align: center;
+}
+
+#servicos .card p {
+    font-family: "Recursive" sans-linear;
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+#servicos .card svg {
+    color: var(--roxo-pixelV);
+    height: 75px;
+}
+
+.carey {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 300px;
+    border-radius: 20px;
+}
+
+.fotos {
+    display: flex;
+    margin-bottom: 500px;
+    border-radius: 20px
+}
+
+.verde {
+    height: 50px;
+}
+
+.banner-baixo {
+    background-image: url(./imgs/Construction\ site\ with\ cranes\ at\ sunset_\ Construction\ of\ an\ apartment\ building.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape {
+    background-image: url(./imgs/Rectangle\ verde\ maior.png);
+    background-size: cover;
+    /* cobre toda a área */
+    background-position: center;
+    /* centraliza a imagem */
+    background-repeat: no-repeat;
+    /* não repete a imagem */
+
+    width: 100%;
+    height: 100vh;
+    /* altura de 100% da tela */
+
+
+}
+
+
+.casel {
+
+
+    width: 900px;
+    height: 600px;
+    margin: 20px;
+    margin-top: 520px;
+    padding: 40px 20px;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* ou absolute/fixed */
+    z-index: 10;
 }
